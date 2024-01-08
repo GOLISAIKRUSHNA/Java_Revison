@@ -1,4 +1,4 @@
-package Basic_folder;
+package Basic_folder.Variable;
 
 public class Type_promotion {
     public static void main(String args[]){
