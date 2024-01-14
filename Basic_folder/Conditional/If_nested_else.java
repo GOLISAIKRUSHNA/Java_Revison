@@ -1,6 +1,6 @@
 package Basic_folder.Conditional;
 
-public class If_elseif_else {
+public class If_nested_else {
     public static void main(String[] args) {
         
         int age=13;

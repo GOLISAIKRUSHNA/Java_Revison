@@ -32,11 +32,11 @@ public class Input {
 
     Scanner s= new Scanner(System.in);
 
-    String word= s.next();
-    System.out.println(word);
+    // String word= s.next();
+    // System.out.println(word);
 
-    String sentence= s.nextLine();
-    System.out.println(sentence);
+    // String sentence= s.nextLine();
+    // System.out.println(sentence);
 
     byte Simple= s.nextByte();
     System.out.println(Simple);
