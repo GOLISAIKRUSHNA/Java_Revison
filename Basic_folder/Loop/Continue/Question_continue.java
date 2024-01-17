@@ -10,10 +10,12 @@ public class Question_continue {
         while (true) {
             System.out.println("Enter the input:");
             int val=sc.nextInt();
-            if(val%10==0){
+            if(val%10==0)
+            {
                 continue;
             }
-            System.out.println(val);
+            System.out.println("all will skip if you enter multiple of 10");
+            System.out.println(val);  //exit one iteration
         }
 
     }
