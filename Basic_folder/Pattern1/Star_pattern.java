@@ -2,7 +2,7 @@ package Basic_folder.Pattern1;
 
 import java.util.Scanner;
 
-public class Simple_pattern_star {
+public class Star_pattern {
     public static void main(String[] args) {
         
         Scanner sc=new Scanner(System.in);
