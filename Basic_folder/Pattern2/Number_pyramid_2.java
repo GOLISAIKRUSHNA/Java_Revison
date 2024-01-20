@@ -2,7 +2,7 @@ package Basic_folder.Pattern2;
 
 import javax.xml.crypto.Data;
 
-public class Diamond {
+public class Number_pyramid_2 {
     static void Diamond(int n){
         for(int i=1;i<=n;i++)
         {
@@ -10,9 +10,13 @@ public class Diamond {
                 System.out.print(" ");
             }
             for(int j=1;j<=((2*i)-1);j++){
-                System.out.print("*");
+                if((i+j)%2==0){
+                    System.out.print(i);
+                }
+                else{
+                    System.out.print(" ");
+                }
             }
-
             System.out.println();
         }
 
@@ -22,10 +26,19 @@ public class Diamond {
                 System.out.print(" ");
             }
             for(int j=1;j<=((2*i)-3);j++){
-                System.out.print("*");
+                if((i+j)%2==0){
+                    System.out.print(i);
+                }
+                else{
+                    System.out.print(" ");
+                }
             }
 
             System.out.println();
+            if(i==2){
+                System.exit(0);
+
+            }
         }
     }
     public static void main(String[] args) {
