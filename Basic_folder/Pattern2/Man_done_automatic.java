@@ -2,7 +2,7 @@ package Basic_folder.Pattern2;
 
 import javax.xml.crypto.Data;
 
-public class Number_pyramid_2 {
+public class Man_done_automatic {
     static void Diamond(int n){
         for(int i=1;i<=n;i++)
         {
