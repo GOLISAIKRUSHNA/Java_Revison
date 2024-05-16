@@ -1,4 +1,4 @@
-package Basic_folder.Function;
+package Function;
 
 public class Funct2 {
 

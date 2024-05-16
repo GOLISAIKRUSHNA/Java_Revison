@@ -1,4 +1,4 @@
-package Basic_folder.Conditional;
+package Conditional;
 
 import java.util.Scanner;
 

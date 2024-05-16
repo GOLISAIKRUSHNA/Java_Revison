@@ -1,5 +1,5 @@
 
-package Basic_folder.Function;
+package Function;
 
 
 import java.util.Scanner;

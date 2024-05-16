@@ -1,4 +1,4 @@
-package Basic_folder.Array;
+
 
 import java.util.Scanner;
 

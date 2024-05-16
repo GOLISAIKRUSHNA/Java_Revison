@@ -1,4 +1,4 @@
-package Basic_folder.Operator;
+package Operator;
 
 public class All_operator {
     public static void main(String[] args) {

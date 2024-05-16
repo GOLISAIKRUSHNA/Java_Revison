@@ -1,4 +1,4 @@
-package Basic_folder.Array;
+
 
 import java.util.Scanner;
 
@@ -23,7 +23,12 @@ public class Find_Element
         for(int i=0;i<arr.length;i++){
             if(x==arr[i]){
                 System.out.println("index location: "+ i + "Element: "+ arr[i]);
+                break;
             }
+           
         }
+      
+            System.out.println("Element not found");
+        
     }
 }
